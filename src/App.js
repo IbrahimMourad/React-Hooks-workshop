@@ -1,15 +1,10 @@
 import "./App.css";
-import FullName from "./component/FullName";
-import ProfilePhoto from "./component/ProfilePhoto";
-import Address from "./component/Address";
-
+import MovieList from "./components/MovieList/MovieList";
 function App() {
   return (
     <div className="App">
-      <div style={{ marginTop: 30 }} />
-      <ProfilePhoto />
-      <FullName />
-      <Address />
+      <h1>MovieList</h1>
+      <MovieList />
     </div>
   );
 }
